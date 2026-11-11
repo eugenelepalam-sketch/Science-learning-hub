@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn through Play — Early Childhood Development Portal</title>
+   
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+   
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   
+    <!-- Google Fonts: Fredoka & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        display: ['Fredoka', 'cursive'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        popYellow: '#FFD166',
+                        popCoral: '#FF6B6B',
+                        popMint: '#4ECDC4',
+                        popSky: '#45B7D1',
+                        popPurple: '#A06CD5',
+                        creamBg: '#FFF9F2',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #FFF9F2;
+        }
+        h1, h2, h3, h4, .font-fun {
+            font-family: 'Fredoka', cursive;
+        }
+        .pop-card {
+            transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+        .pop-card:hover {
+            transform: translateY(-4px) scale(1.01);
+        }
+    </style>
+</head>
+<body class="bg-creamBg text-slate-800 antialiased selection:bg-popCoral selection:text-white min-h-screen flex flex-col">
+
+
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b-4 border-popYellow shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center space-x-3 group">
+                <div class="w-12 h-12 rounded-2xl bg-popYellow text-slate-900 flex items-center justify-center shadow-md group-hover:rotate-6 transition-transform">
+                    <i class="fa-solid fa-puzzle-piece text-2xl text-popCoral"></i>
+                </div>
+                <div>
+                    <span class="text-xl font-fun font-bold text-slate-900 leading-none block">Learn through Play</span>
+                    <span class="text-xs text-popPurple font-bold">Early Childhood Development (Ages 3–6)</span>
+                </div>
+            </a>
+
+
+            <!-- Navigation Links -->
+            <nav class="hidden md:flex items-center space-x-6 text-sm font-bold text-slate-700">
+                <a href="#problem" class="hover:text-popCoral transition-colors">Focus Problem</a>
+                <a href="#root-cause" class="hover:text-popCoral transition-colors">5 Whys</a>
+                <a href="#audience" class="hover:text-popCoral transition-colors">Target Audience</a>
+                <a href="#solution-video" class="hover:text-popCoral transition-colors">Video & Activities</a>
+                <a href="#references" class="hover:text-popCoral transition-colors">Sources</a>
+            </nav>
+
+
+            <!-- Action Link -->
+            <a href="#solution-video" class="px-5 py-2.5 rounded-2xl bg-popCoral text-white font-fun font-bold hover:bg-red-500 transition-all shadow-md hover:shadow-lg flex items-center space-x-2">
+                <i class="fa-brands fa-youtube text-yellow-200"></i>
+                <span>Watch Video</span>
+            </a>
+        </div>
+    </header>
+
+
+    <main class="flex-grow space-y-12 py-8">
+
+
+        <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="relative rounded-3xl bg-gradient-to-r from-popSky via-popMint to-popYellow text-slate-900 p-8 sm:p-12 overflow-hidden shadow-lg border-4 border-white">
+                <div class="relative z-10 max-w-3xl space-y-6">
+                    <!-- Unified Team Header Badge -->
+                    <div class="inline-flex items-center space-x-2 px-5 py-2.5 rounded-2xl bg-white/90 backdrop-blur-md shadow-sm border border-white text-xs sm:text-sm font-bold text-slate-900">
+                        <i class="fa-solid fa-star text-popYellow text-base"></i>
+                        <span>Team: <strong class="text-popCoral font-black">Altares • Salcedo V. • Bituin • Acapuyan • Ydia • Pestano</strong></span>
+                    </div>
+
+
+                    <h1 class="text-4xl sm:text-6xl font-fun font-bold tracking-wide text-slate-900 leading-tight">
+                        Learn through <span class="text-popCoral drop-shadow-sm">Play!</span> ✨
+                    </h1>
+
+
+                    <p class="text-sm sm:text-lg text-slate-800 font-medium leading-relaxed">
+                        Discover simple, engaging activities like <strong>drawing, storytelling, puzzles, and pretend play</strong> that build essential early childhood skills for ages 3 to 6.
+                    </p>
+
+
+                    <!-- Core Quick Stats Grid -->
+                    <div class="pt-4 grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs font-bold">
+                        <div class="bg-white/80 p-4 rounded-2xl border-2 border-white shadow-sm">
+                            <span class="text-slate-500 block text-[11px] font-extrabold uppercase">Target Age</span>
+                            <span class="font-fun text-popPurple text-lg">3 – 6 Years Old</span>
+                        </div>
+                        <div class="bg-white/80 p-4 rounded-2xl border-2 border-white shadow-sm">
+                            <span class="text-slate-500 block text-[11px] font-extrabold uppercase">Proposed Solution</span>
+                            <span class="font-fun text-popCoral text-lg"><i class="fa-brands fa-youtube mr-1"></i> Educational Video</span>
+                        </div>
+                        <div class="bg-white/80 p-4 rounded-2xl border-2 border-white shadow-sm">
+                            <span class="text-slate-500 block text-[11px] font-extrabold uppercase">Primary Goal</span>
+                            <span class="font-fun text-teal-700 text-lg">Caregiver Support</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="problem" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-24">
+            <div class="bg-white rounded-3xl p-6 sm:p-10 border-4 border-popYellow shadow-sm space-y-8">
+                <div class="border-b-2 border-slate-100 pb-4">
+                    <span class="text-xs font-extrabold text-popCoral uppercase tracking-wider block mb-1">Overview</span>
+                    <h2 class="text-3xl font-fun font-bold text-slate-900">1. Focus Problem</h2>
+                </div>
+
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Problem Card -->
+                    <div class="pop-card p-6 rounded-3xl bg-amber-50 border-2 border-popYellow space-y-3">
+                        <div class="w-12 h-12 rounded-2xl bg-popYellow text-slate-900 flex items-center justify-center font-bold text-lg shadow-sm">
+                            <i class="fa-solid fa-triangle-exclamation text-amber-700"></i>
+                        </div>
+                        <h3 class="font-fun text-xl font-bold text-slate-900">What is the Problem?</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                            Limited awareness among parents and caregivers regarding age-appropriate play activities suitable for children ages 3 to 6 and their developmental benefits.
+                        </p>
+                    </div>
+
+
+                    <!-- Importance Card -->
+                    <div class="pop-card p-6 rounded-3xl bg-teal-50 border-2 border-popMint space-y-3">
+                        <div class="w-12 h-12 rounded-2xl bg-popMint text-white flex items-center justify-center font-bold text-lg shadow-sm">
+                            <i class="fa-solid fa-lightbulb"></i>
+                        </div>
+                        <h3 class="font-fun text-xl font-bold text-slate-900">Why is it Important?</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                            Play activities—such as <strong>drawing, storytelling, puzzles, and pretend play</strong>—are frequently viewed merely as entertainment rather than essential tools for developmental growth.
+                        </p>
+                    </div>
+
+
+                    <!-- Affected People Card -->
+                    <div class="pop-card p-6 rounded-3xl bg-sky-50 border-2 border-popSky space-y-3">
+                        <div class="w-12 h-12 rounded-2xl bg-popSky text-white flex items-center justify-center font-bold text-lg shadow-sm">
+                            <i class="fa-solid fa-child-reaching"></i>
+                        </div>
+                        <h3 class="font-fun text-xl font-bold text-slate-900">Who is Affected?</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                            Children ages 3–6, parents, legal guardians, babysitting relatives, and informal caregivers (babysitters and daycare staff).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="root-cause" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-24">
+            <div class="bg-white rounded-3xl p-6 sm:p-10 border-4 border-popMint shadow-sm space-y-8">
+                <div class="border-b-2 border-slate-100 pb-4">
+                    <span class="text-xs font-extrabold text-teal-600 uppercase tracking-wider block mb-1">Diagnostic</span>
+                    <h2 class="text-3xl font-fun font-bold text-slate-900">2. Root Cause Analysis — 5 Whys</h2>
+                </div>
+
+
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                    <!-- Interactive 5 Whys Accordion -->
+                    <div class="lg:col-span-7 space-y-3">
+                        <p class="text-xs font-bold text-slate-500 mb-2">Click each step to examine the reasoning:</p>
+                       
+                        <!-- Why 1 -->
+                        <div class="border-2 border-slate-200 rounded-2xl overflow-hidden transition-all duration-200">
+                            <button onclick="toggleWhy(1)" class="w-full p-4 bg-slate-50 hover:bg-teal-50/50 flex items-center justify-between text-left transition-colors">
+                                <div class="flex items-center space-x-3">
+                                    <span class="w-8 h-8 rounded-xl bg-popMint text-white font-fun font-bold text-sm flex items-center justify-center shrink-0">1</span>
+                                    <span class="text-xs sm:text-sm font-bold text-slate-800">Why do some parents have limited awareness of age-appropriate play?</span>
+                                </div>
+                                <i id="whyIcon-1" class="fa-solid fa-chevron-down text-slate-400 text-xs transition-transform duration-200"></i>
+                            </button>
+                            <div id="whyContent-1" class="p-4 text-xs sm:text-sm text-slate-600 bg-white border-t-2 border-slate-100 leading-relaxed">
+                                They may not have enough information about which play activities are suitable for children ages 3–6.
+                            </div>
+                        </div>
+
+
+                        <!-- Why 2 -->
+                        <div class="border-2 border-slate-200 rounded-2xl overflow-hidden transition-all duration-200">
+                            <button onclick="toggleWhy(2)" class="w-full p-4 bg-slate-50 hover:bg-teal-50/50 flex items-center justify-between text-left transition-colors">
+                                <div class="flex items-center space-x-3">
+                                    <span class="w-8 h-8 rounded-xl bg-popMint text-white font-fun font-bold text-sm flex items-center justify-center shrink-0">2</span>
+                                    <span class="text-xs sm:text-sm font-bold text-slate-800">Why might they not have enough information?</span>
+                                </div>
+                                <i id="whyIcon-2" class="fa-solid fa-chevron-down text-slate-400 text-xs transition-transform duration-200"></i>
+                            </button>
+                            <div id="whyContent-2" class="p-4 text-xs sm:text-sm text-slate-600 bg-white border-t-2 border-slate-100 leading-relaxed">
+                                Information about age-appropriate play and its developmental benefits may not always be accessible or easy to understand.
+                            </div>
+                        </div>
+
+
+                        <!-- Why 3 -->
+                        <div class="border-2 border-slate-200 rounded-2xl overflow-hidden transition-all duration-200">
+                            <button onclick="toggleWhy(3)" class="w-full p-4 bg-slate-50 hover:bg-teal-50/50 flex items-center justify-between text-left transition-colors">
+                                <div class="flex items-center space-x-3">
+                                    <span class="w-8 h-8 rounded-xl bg-popMint text-white font-fun font-bold text-sm flex items-center justify-center shrink-0">3</span>
+                                    <span class="text-xs sm:text-sm font-bold text-slate-800">Why might parents not recognize the benefits of developmental play?</span>
+                                </div>
+                                <i id="whyIcon-3" class="fa-solid fa-chevron-down text-slate-400 text-xs transition-transform duration-200"></i>
+                            </button>
+                            <div id="whyContent-3" class="p-4 text-xs sm:text-sm text-slate-600 bg-white border-t-2 border-slate-100 leading-relaxed">
+                                Activities, such as drawing, storytelling, <strong>puzzles</strong>, and pretend play, may often be viewed mainly as a form of entertainment.
+                            </div>
+                        </div>
+
+
+                        <!-- Why 4 -->
+                        <div class="border-2 border-slate-200 rounded-2xl overflow-hidden transition-all duration-200">
+                            <button onclick="toggleWhy(4)" class="w-full p-4 bg-slate-50 hover:bg-teal-50/50 flex items-center justify-between text-left transition-colors">
+                                <div class="flex items-center space-x-3">
+                                    <span class="w-8 h-8 rounded-xl bg-popMint text-white font-fun font-bold text-sm flex items-center justify-center shrink-0">4</span>
+                                    <span class="text-xs sm:text-sm font-bold text-slate-800">Why are these activities sometimes viewed mainly as entertainment?</span>
+                                </div>
+                                <i id="whyIcon-4" class="fa-solid fa-chevron-down text-slate-400 text-xs transition-transform duration-200"></i>
+                            </button>
+                            <div id="whyContent-4" class="p-4 text-xs sm:text-sm text-slate-600 bg-white border-t-2 border-slate-100 leading-relaxed">
+                                Parents may not know which specific skills these activities can help develop.
+                            </div>
+                        </div>
+
+
+                        <!-- Why 5 -->
+                        <div class="border-2 border-slate-200 rounded-2xl overflow-hidden transition-all duration-200">
+                            <button onclick="toggleWhy(5)" class="w-full p-4 bg-slate-50 hover:bg-teal-50/50 flex items-center justify-between text-left transition-colors">
+                                <div class="flex items-center space-x-3">
+                                    <span class="w-8 h-8 rounded-xl bg-popMint text-white font-fun font-bold text-sm flex items-center justify-center shrink-0">5</span>
+                                    <span class="text-xs sm:text-sm font-bold text-slate-800">Why is this lack of knowledge a concern?</span>
+                                </div>
+                                <i id="whyIcon-5" class="fa-solid fa-chevron-down text-slate-400 text-xs transition-transform duration-200"></i>
+                            </button>
+                            <div id="whyContent-5" class="p-4 text-xs sm:text-sm text-slate-600 bg-white border-t-2 border-slate-100 leading-relaxed">
+                                Parents may have difficulty choosing play activities that match their children’s developmental needs.
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Final Root Cause Box -->
+                    <div class="lg:col-span-5 bg-gradient-to-br from-amber-100 via-amber-50 to-orange-100 p-6 sm:p-8 rounded-3xl border-4 border-popYellow space-y-4 shadow-sm">
+                        <div class="flex items-center space-x-2 text-amber-900 font-fun font-bold text-sm uppercase tracking-wider">
+                            <i class="fa-solid fa-bullseye text-popCoral text-2xl"></i>
+                            <span>Final Root Cause</span>
+                        </div>
+                        <p class="text-slate-900 font-bold text-base sm:text-xl leading-snug">
+                            "Limited access to clear and understandable information about age-appropriate play and its developmental benefits."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="audience" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-24">
+            <div class="bg-white rounded-3xl p-6 sm:p-10 border-4 border-popPurple shadow-sm space-y-8">
+                <div class="border-b-2 border-slate-100 pb-4">
+                    <span class="text-xs font-extrabold text-popPurple uppercase tracking-wider block mb-1">Target Audience</span>
+                    <h2 class="text-3xl font-fun font-bold text-slate-900">3. Target Audience & Caregiver Needs</h2>
+                </div>
+
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <!-- Left Column -->
+                    <div class="space-y-6">
+                        <div class="p-6 bg-purple-50/60 rounded-3xl border-2 border-purple-200 space-y-3">
+                            <div class="flex items-center space-x-2 text-popPurple font-fun font-bold text-lg">
+                                <i class="fa-solid fa-people-roof text-xl"></i>
+                                <h3>Who is the Audience?</h3>
+                            </div>
+                            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                                The caregiving system surrounding young children: parents, legal guardians, extended family members, babysitters, and daycare attendants who facilitate play but lack formal early milestone training.
+                            </p>
+                        </div>
+
+
+                        <div class="p-6 bg-purple-50/60 rounded-3xl border-2 border-purple-200 space-y-3">
+                            <div class="flex items-center space-x-2 text-popPurple font-fun font-bold text-lg">
+                                <i class="fa-solid fa-chart-user text-xl"></i>
+                                <h3>Demographics</h3>
+                            </div>
+                            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                                Parents and caregivers with children aged 3 to 6 years old, particularly those seeking guidance on age-appropriate play to avoid unrealistic developmental expectations.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <!-- Right Column -->
+                    <div class="space-y-6">
+                        <div class="p-6 bg-teal-50/60 rounded-3xl border-2 border-popMint space-y-3">
+                            <div class="flex items-center space-x-2 text-teal-800 font-fun font-bold text-lg">
+                                <i class="fa-solid fa-heart-circle-check text-xl text-popMint"></i>
+                                <h3>Caregiver Needs</h3>
+                            </div>
+                            <p class="text-slate-700 text-xs sm:text-sm leading-relaxed">
+                                Knowing suitable activities helps support learning, physical development, and social skills while letting children explore preferred interests without being forced.
+                            </p>
+                        </div>
+
+
+                        <div class="p-6 bg-rose-50/60 rounded-3xl border-2 border-rose-200 space-y-3">
+                            <div class="flex items-center space-x-2 text-rose-800 font-fun font-bold text-lg">
+                                <i class="fa-solid fa-shield-heart text-xl text-popCoral"></i>
+                                <h3>Concerns to Avoid</h3>
+                            </div>
+                            <div class="grid grid-cols-2 gap-2 text-xs font-bold text-slate-700 pt-1">
+                                <div class="p-3 rounded-2xl bg-white border border-rose-200"><i class="fa-solid fa-triangle-exclamation text-popCoral mr-1"></i> Safety Risks</div>
+                                <div class="p-3 rounded-2xl bg-white border border-rose-200"><i class="fa-solid fa-clock text-amber-500 mr-1"></i> Delayed Growth</div>
+                                <div class="p-3 rounded-2xl bg-white border border-rose-200"><i class="fa-solid fa-face-frown text-slate-400 mr-1"></i> Lack of Interest</div>
+                                <div class="p-3 rounded-2xl bg-white border border-rose-200"><i class="fa-solid fa-weight-scale text-purple-500 mr-1"></i> Too Much Pressure</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="solution-video" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-24">
+            <div class="bg-white rounded-3xl p-6 sm:p-10 border-4 border-popCoral shadow-sm space-y-8">
+                <div class="border-b-2 border-slate-100 pb-4">
+                    <span class="text-xs font-extrabold text-popCoral uppercase tracking-wider block mb-1">Proposed Solution</span>
+                    <h2 class="text-3xl font-fun font-bold text-slate-900">4. YouTube Educational Video & Activity Guide</h2>
+                </div>
+
+
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                    <!-- Embedded Video Card -->
+                    <div class="lg:col-span-7 bg-slate-900 rounded-3xl p-5 text-white space-y-4 shadow-md border-4 border-slate-800">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs font-bold text-popYellow uppercase tracking-wider font-fun">
+                                <i class="fa-brands fa-youtube text-red-500 mr-1.5 text-lg"></i> Educational Demonstration
+                            </span>
+                            <span class="px-3 py-1 rounded-full bg-red-600 text-white text-[10px] font-black uppercase tracking-wider">
+                                Solution Video
+                            </span>
+                        </div>
+
+
+                        <!-- Embedded iFrame Player -->
+                        <div class="relative w-full aspect-video rounded-2xl overflow-hidden bg-slate-950 border border-slate-800">
+                            <iframe
+                                class="absolute top-0 left-0 w-full h-full"
+                                src="https://www.youtube.com/embed/CxfSsBRI5DU"
+                                title="Learn through Play - Educational Video"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+
+
+                        <div class="flex items-center justify-between pt-1 text-xs">
+                            <span class="text-slate-300">Simple and fun activities for home play (Ages 3–6).</span>
+                            <a href="https://youtu.be/CxfSsBRI5DU?si=Qgp3Qq6Yl2pZJHcR" target="_blank" rel="noopener" class="px-3 py-1.5 rounded-xl bg-red-600 hover:bg-red-700 text-white font-bold transition-colors inline-flex items-center space-x-1">
+                                <span>Watch on YouTube</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <!-- Video Details -->
+                    <div class="lg:col-span-5 space-y-5">
+                        <div class="p-6 bg-amber-50 rounded-3xl border-2 border-popYellow space-y-3">
+                            <h3 class="font-fun text-xl font-bold text-slate-900">What Will the Video Contain?</h3>
+                            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                                A short explanation of age-appropriate play, followed by simple activities suitable for ages 3–6: <strong>drawing and coloring, storytelling, puzzles, and pretend play</strong>. It explains how these support language, creativity, problem-solving, coordination, and social skills.
+                            </p>
+                        </div>
+
+
+                        <div class="p-6 bg-teal-50 rounded-3xl border-2 border-popMint space-y-3">
+                            <h3 class="font-fun text-xl font-bold text-slate-900">How It Addresses the Problem</h3>
+                            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                                It provides parents and caregivers with clear, accessible, and reliable information through visual demonstration, showing exactly how everyday play routines foster early developmental milestones.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Interactive Activity Switcher with Puzzles -->
+                <div class="pt-6 space-y-4 border-t-2 border-slate-100">
+                    <h3 class="font-fun text-2xl font-bold text-slate-900">Explore Play Activities & Skill Benefits</h3>
+                    <p class="text-xs font-bold text-slate-500">Click an activity to see its primary developmental benefits:</p>
+
+
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3" id="activityButtons">
+                        <button onclick="selectActivity('drawing')" id="actBtn-drawing" class="p-3.5 rounded-2xl border-2 border-popCoral bg-rose-50 text-slate-900 font-fun font-bold text-sm text-left transition-all shadow-sm">
+                            <i class="fa-solid fa-palette text-popCoral mr-1.5"></i> Drawing & Coloring
+                        </button>
+                        <button onclick="selectActivity('storytelling')" id="actBtn-storytelling" class="p-3.5 rounded-2xl border-2 border-slate-200 bg-slate-50 text-slate-700 font-fun font-bold text-sm text-left transition-all">
+                            <i class="fa-solid fa-book-open text-amber-500 mr-1.5"></i> Storytelling
+                        </button>
+                        <button onclick="selectActivity('puzzles')" id="actBtn-puzzles" class="p-3.5 rounded-2xl border-2 border-slate-200 bg-slate-50 text-slate-700 font-fun font-bold text-sm text-left transition-all">
+                            <i class="fa-solid fa-puzzle-piece text-popPurple mr-1.5"></i> Puzzles
+                        </button>
+                        <button onclick="selectActivity('pretend')" id="actBtn-pretend" class="p-3.5 rounded-2xl border-2 border-slate-200 bg-slate-50 text-slate-700 font-fun font-bold text-sm text-left transition-all">
+                            <i class="fa-solid fa-masks-theater text-popSky mr-1.5"></i> Pretend Play
+                        </button>
+                    </div>
+
+
+                    <!-- Activity Details Display -->
+                    <div id="activityDetailsCard" class="p-6 rounded-3xl bg-slate-50 border-2 border-slate-200 text-xs sm:text-sm space-y-3">
+                        <div id="actTitle" class="font-fun text-2xl font-bold text-slate-900">Drawing & Coloring</div>
+                        <p id="actDesc" class="text-slate-600 leading-relaxed font-medium">
+                            Develops fine motor control, hand-eye coordination, pencil grip, color identification, and early creative self-expression.
+                        </p>
+                        <div class="pt-2 flex flex-wrap gap-2" id="actTags">
+                            <span class="px-3 py-1 rounded-xl bg-rose-100 text-rose-800 font-bold text-xs">Fine Motor Skills</span>
+                            <span class="px-3 py-1 rounded-xl bg-amber-100 text-amber-800 font-bold text-xs">Creativity</span>
+                            <span class="px-3 py-1 rounded-xl bg-teal-100 text-teal-800 font-bold text-xs">Physical Coordination</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="references" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-24">
+            <div class="bg-slate-900 rounded-3xl p-6 sm:p-10 text-white space-y-6 shadow-lg border-4 border-slate-800">
+                <div class="border-b border-slate-800 pb-4 flex items-center justify-between">
+                    <div>
+                        <span class="text-xs font-bold text-popYellow uppercase tracking-wider block mb-1">Research Base</span>
+                        <h2 class="text-3xl font-fun font-bold">5. Academic Sources & Citations</h2>
+                    </div>
+                    <i class="fa-solid fa-graduation-cap text-3xl text-slate-700"></i>
+                </div>
+
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+                    <!-- Reference 1 -->
+                    <div class="p-5 rounded-2xl bg-slate-800 border border-slate-700 space-y-3 flex flex-col justify-between">
+                        <div class="space-y-2">
+                            <span class="px-2.5 py-1 rounded-lg bg-teal-500/20 text-teal-300 font-bold text-[10px] uppercase">CDC Guidelines</span>
+                            <div class="font-bold text-white text-sm">Centers for Disease Control and Prevention</div>
+                            <p class="text-slate-400 leading-relaxed">
+                                Preschoolers (3-5 years old). U.S. Department of Health and Human Services.
+                            </p>
+                        </div>
+                        <a href="https://www.cdc.gov/child-development/positive-parenting-tips/preschooler-3-5-years.html" target="_blank" rel="noopener" class="inline-flex items-center space-x-1.5 text-popYellow font-bold hover:underline pt-2">
+                            <span>Open CDC Tips</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                        </a>
+                    </div>
+
+
+                    <!-- Reference 2 -->
+                    <div class="p-5 rounded-2xl bg-slate-800 border border-slate-700 space-y-3 flex flex-col justify-between">
+                        <div class="space-y-2">
+                            <span class="px-2.5 py-1 rounded-lg bg-amber-500/20 text-amber-300 font-bold text-[10px] uppercase">Pediatrics Research</span>
+                            <div class="font-bold text-white text-sm">American Academy of Pediatrics (AAP)</div>
+                            <p class="text-slate-400 leading-relaxed">
+                                Yogman, M., Garner, A., Hutchinson, J., Hirsh-Pasek, K., Golinkoff, R. M., et al. (2018). <em>The power of play: A pediatric role in enhancing development in young children.</em> Pediatrics, 142(3), e20182058.
+                            </p>
+                        </div>
+                        <a href="https://publications.aap.org/pediatrics/article/142/3/e20182058/38649/The-Power-of-Play-A-Pediatric-Role-in-Enhancing" target="_blank" rel="noopener" class="inline-flex items-center space-x-1.5 text-popYellow font-bold hover:underline pt-2">
+                            <span>Open AAP Study</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <footer class="bg-white border-t-4 border-popYellow py-8 text-center text-xs text-slate-600">
+        <div class="max-w-7xl mx-auto px-4 space-y-2">
+            <p class="font-fun text-base font-bold text-slate-900">Learn through Play — Project Portal</p>
+            <p class="font-bold text-popPurple">Altares • Salcedo V. • Bituin • Acapuyan • Ydia • Pestano</p>
+        </div>
+    </footer>
+
+
+    <script>
+        function toggleWhy(num) {
+            const content = document.getElementById(`whyContent-${num}`);
+            const icon = document.getElementById(`whyIcon-${num}`);
+           
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.classList.add('rotate-180');
+            } else {
+                content.classList.add('hidden');
+                icon.classList.remove('rotate-180');
+            }
+        }
+
+
+        const activityData = {
+            drawing: {
+                title: "Drawing & Coloring",
+                desc: "Develops fine motor control, hand-eye coordination, pencil grip, color identification, visual-spatial awareness, and creative self-expression.",
+                tags: ["Fine Motor Skills", "Creativity", "Physical Coordination"],
+                btnId: "actBtn-drawing"
+            },
+            storytelling: {
+                title: "Interactive Storytelling",
+                desc: "Expands vocabulary, listening comprehension, narrative recall, sequential thinking, and emotional empathy.",
+                tags: ["Language Skills", "Vocabulary", "Social Skills"],
+                btnId: "actBtn-storytelling"
+            },
+            puzzles: {
+                title: "Puzzles & Problem Solving",
+                desc: "Enhances spatial awareness, pattern recognition, critical problem-solving skills, hand-eye coordination, and persistence.",
+                tags: ["Problem Solving", "Spatial Skills", "Cognitive Growth"],
+                btnId: "actBtn-puzzles"
+            },
+            pretend: {
+                title: "Pretend & Role Play",
+                desc: "Encourages social negotiation, emotional regulation, empathy, imaginative scenarios, and peer communication.",
+                tags: ["Social Skills", "Emotional Regulation", "Creativity"],
+                btnId: "actBtn-pretend"
+            }
+        };
+
+
+        function selectActivity(key) {
+            const data = activityData[key];
+            if (!data) return;
+
+
+            document.getElementById('actTitle').innerText = data.title;
+            document.getElementById('actDesc').innerText = data.desc;
+
+
+            const tagsContainer = document.getElementById('actTags');
+            tagsContainer.innerHTML = data.tags.map(tag =>
+                `<span class="px-3 py-1 rounded-xl bg-purple-100 text-purple-900 font-bold text-xs">${tag}</span>`
+            ).join('');
+
+
+            Object.keys(activityData).forEach(actKey => {
+                const btn = document.getElementById(activityData[actKey].btnId);
+                if (actKey === key) {
+                    btn.className = "p-3.5 rounded-2xl border-2 border-popCoral bg-rose-50 text-slate-900 font-fun font-bold text-sm text-left transition-all shadow-sm";
+                } else {
+                    btn.className = "p-3.5 rounded-2xl border-2 border-slate-200 bg-slate-50 text-slate-700 font-fun font-bold text-sm text-left transition-all hover:bg-slate-100";
+                }
+            });
+        }
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn through Play — Early Childhood Development Portal</title>
+   
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+   
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   
+    <!-- Google Fonts: Fredoka & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        display: ['Fredoka', 'cursive'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        popYellow: '#FFD166',
+                        popCoral: '#FF6B6B',
+                        popMint: '#4ECDC4',
+                        popSky: '#45B7D1',
+                        popPurple: '#A06CD5',
+                        creamBg: '#FFF9F2',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #FFF9F2;
+        }
+        h1, h2, h3, h4, .font-fun {
+            font-family: 'Fredoka', cursive;
+        }
+        .pop-card {
+            transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+        .pop-card:hover {
+            transform: translateY(-4px) scale(1.01);
+        }
+    </style>
+</head>
+<body class="bg-creamBg text-slate-800 antialiased selection:bg-popCoral selection:text-white min-h-screen flex flex-col">
+
+
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b-4 border-popYellow shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center space-x-3 group">
+                <div class="w-12 h-12 rounded-2xl bg-popYellow text-slate-900 flex items-center justify-center shadow-md group-hover:rotate-6 transition-transform">
+                    <i class="fa-solid fa-puzzle-piece text-2xl text-popCoral"></i>
+                </div>
+                <div>
+                    <span class="text-xl font-fun font-bold text-slate-900 leading-none block">Learn through Play</span>
+                    <span class="text-xs text-popPurple font-bold">Early Childhood Development (Ages 3–6)</span>
+                </div>
+            </a>
+
+
+            <!-- Navigation Links -->
+            <nav class="hidden md:flex items-center space-x-6 text-sm font-bold text-slate-700">
+                <a href="#problem" class="hover:text-popCoral transition-colors">Focus Problem</a>
+                <a href="#root-cause" class="hover:text-popCoral transition-colors">5 Whys</a>
+                <a href="#audience" class="hover:text-popCoral transition-colors">Target Audience</a>
+                <a href="#solution-video" class="hover:text-popCoral transition-colors">Video & Activities</a>
+                <a href="#references" class="hover:text-popCoral transition-colors">Sources</a>
+            </nav>
+
+
+            <!-- Action Link -->
+            <a href="#solution-video" class="px-5 py-2.5 rounded-2xl bg-popCoral text-white font-fun font-bold hover:bg-red-500 transition-all shadow-md hover:shadow-lg flex items-center space-x-2">
+                <i class="fa-brands fa-youtube text-yellow-200"></i>
+                <span>Watch Video</span>
+            </a>
+        </div>
+    </header>
+
+
+    <main class="flex-grow space-y-12 py-8">
+
+
+        <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="relative rounded-3xl bg-gradient-to-r from-popSky via-popMint to-popYellow text-slate-900 p-8 sm:p-12 overflow-hidden shadow-lg border-4 border-white">
+                <div class="relative z-10 max-w-3xl space-y-6">
+                    <!-- Unified Team Header Badge -->
+                    <div class="inline-flex items-center space-x-2 px-5 py-2.5 rounded-2xl bg-white/90 backdrop-blur-md shadow-sm border border-white text-xs sm:text-sm font-bold text-slate-900">
+                        <i class="fa-solid fa-star text-popYellow text-base"></i>
+                        <span>Team: <strong class="text-popCoral font-black">Altares • Salcedo V. • Bituin • Acapuyan • Ydia • Pestano</strong></span>
+                    </div>
+
+
+                    <h1 class="text-4xl sm:text-6xl font-fun font-bold tracking-wide text-slate-900 leading-tight">
+                        Learn through <span class="text-popCoral drop-shadow-sm">Play!</span> ✨
+                    </h1>
+
+
+                    <p class="text-sm sm:text-lg text-slate-800 font-medium leading-relaxed">
+                        Discover simple, engaging activities like <strong>drawing, storytelling, puzzles, and pretend play</strong> that build essential early childhood skills for ages 3 to 6.
+                    </p>
+
+
+                    <!-- Core Quick Stats Grid -->
+                    <div class="pt-4 grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs font-bold">
+                        <div class="bg-white/80 p-4 rounded-2xl border-2 border-white shadow-sm">
+                            <span class="text-slate-500 block text-[11px] font-extrabold uppercase">Target Age</span>
+                            <span class="font-fun text-popPurple text-lg">3 – 6 Years Old</span>
+                        </div>
+                        <div class="bg-white/80 p-4 rounded-2xl border-2 border-white shadow-sm">
+                            <span class="text-slate-500 block text-[11px] font-extrabold uppercase">Proposed Solution</span>
+                            <span class="font-fun text-popCoral text-lg"><i class="fa-brands fa-youtube mr-1"></i> Educational Video</span>
+                        </div>
+                        <div class="bg-white/80 p-4 rounded-2xl border-2 border-white shadow-sm">
+                            <span class="text-slate-500 block text-[11px] font-extrabold uppercase">Primary Goal</span>
+                            <span class="font-fun text-teal-700 text-lg">Caregiver Support</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="problem" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-24">
+            <div class="bg-white rounded-3xl p-6 sm:p-10 border-4 border-popYellow shadow-sm space-y-8">
+                <div class="border-b-2 border-slate-100 pb-4">
+                    <span class="text-xs font-extrabold text-popCoral uppercase tracking-wider block mb-1">Overview</span>
+                    <h2 class="text-3xl font-fun font-bold text-slate-900">1. Focus Problem</h2>
+                </div>
+
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Problem Card -->
+                    <div class="pop-card p-6 rounded-3xl bg-amber-50 border-2 border-popYellow space-y-3">
+                        <div class="w-12 h-12 rounded-2xl bg-popYellow text-slate-900 flex items-center justify-center font-bold text-lg shadow-sm">
+                            <i class="fa-solid fa-triangle-exclamation text-amber-700"></i>
+                        </div>
+                        <h3 class="font-fun text-xl font-bold text-slate-900">What is the Problem?</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                            Limited awareness among parents and caregivers regarding age-appropriate play activities suitable for children ages 3 to 6 and their developmental benefits.
+                        </p>
+                    </div>
+
+
+                    <!-- Importance Card -->
+                    <div class="pop-card p-6 rounded-3xl bg-teal-50 border-2 border-popMint space-y-3">
+                        <div class="w-12 h-12 rounded-2xl bg-popMint text-white flex items-center justify-center font-bold text-lg shadow-sm">
+                            <i class="fa-solid fa-lightbulb"></i>
+                        </div>
+                        <h3 class="font-fun text-xl font-bold text-slate-900">Why is it Important?</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                            Play activities—such as <strong>drawing, storytelling, puzzles, and pretend play</strong>—are frequently viewed merely as entertainment rather than essential tools for developmental growth.
+                        </p>
+                    </div>
+
+
+                    <!-- Affected People Card -->
+                    <div class="pop-card p-6 rounded-3xl bg-sky-50 border-2 border-popSky space-y-3">
+                        <div class="w-12 h-12 rounded-2xl bg-popSky text-white flex items-center justify-center font-bold text-lg shadow-sm">
+                            <i class="fa-solid fa-child-reaching"></i>
+                        </div>
+                        <h3 class="font-fun text-xl font-bold text-slate-900">Who is Affected?</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                            Children ages 3–6, parents, legal guardians, babysitting relatives, and informal caregivers (babysitters and daycare staff).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="root-cause" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-24">
+            <div class="bg-white rounded-3xl p-6 sm:p-10 border-4 border-popMint shadow-sm space-y-8">
+                <div class="border-b-2 border-slate-100 pb-4">
+                    <span class="text-xs font-extrabold text-teal-600 uppercase tracking-wider block mb-1">Diagnostic</span>
+                    <h2 class="text-3xl font-fun font-bold text-slate-900">2. Root Cause Analysis — 5 Whys</h2>
+                </div>
+
+
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                    <!-- Interactive 5 Whys Accordion -->
+                    <div class="lg:col-span-7 space-y-3">
+                        <p class="text-xs font-bold text-slate-500 mb-2">Click each step to examine the reasoning:</p>
+                       
+                        <!-- Why 1 -->
+                        <div class="border-2 border-slate-200 rounded-2xl overflow-hidden transition-all duration-200">
+                            <button onclick="toggleWhy(1)" class="w-full p-4 bg-slate-50 hover:bg-teal-50/50 flex items-center justify-between text-left transition-colors">
+                                <div class="flex items-center space-x-3">
+                                    <span class="w-8 h-8 rounded-xl bg-popMint text-white font-fun font-bold text-sm flex items-center justify-center shrink-0">1</span>
+                                    <span class="text-xs sm:text-sm font-bold text-slate-800">Why do some parents have limited awareness of age-appropriate play?</span>
+                                </div>
+                                <i id="whyIcon-1" class="fa-solid fa-chevron-down text-slate-400 text-xs transition-transform duration-200"></i>
+                            </button>
+                            <div id="whyContent-1" class="p-4 text-xs sm:text-sm text-slate-600 bg-white border-t-2 border-slate-100 leading-relaxed">
+                                They may not have enough information about which play activities are suitable for children ages 3–6.
+                            </div>
+                        </div>
+
+
+                        <!-- Why 2 -->
+                        <div class="border-2 border-slate-200 rounded-2xl overflow-hidden transition-all duration-200">
+                            <button onclick="toggleWhy(2)" class="w-full p-4 bg-slate-50 hover:bg-teal-50/50 flex items-center justify-between text-left transition-colors">
+                                <div class="flex items-center space-x-3">
+                                    <span class="w-8 h-8 rounded-xl bg-popMint text-white font-fun font-bold text-sm flex items-center justify-center shrink-0">2</span>
+                                    <span class="text-xs sm:text-sm font-bold text-slate-800">Why might they not have enough information?</span>
+                                </div>
+                                <i id="whyIcon-2" class="fa-solid fa-chevron-down text-slate-400 text-xs transition-transform duration-200"></i>
+                            </button>
+                            <div id="whyContent-2" class="p-4 text-xs sm:text-sm text-slate-600 bg-white border-t-2 border-slate-100 leading-relaxed">
+                                Information about age-appropriate play and its developmental benefits may not always be accessible or easy to understand.
+                            </div>
+                        </div>
+
+
+                        <!-- Why 3 -->
+                        <div class="border-2 border-slate-200 rounded-2xl overflow-hidden transition-all duration-200">
+                            <button onclick="toggleWhy(3)" class="w-full p-4 bg-slate-50 hover:bg-teal-50/50 flex items-center justify-between text-left transition-colors">
+                                <div class="flex items-center space-x-3">
+                                    <span class="w-8 h-8 rounded-xl bg-popMint text-white font-fun font-bold text-sm flex items-center justify-center shrink-0">3</span>
+                                    <span class="text-xs sm:text-sm font-bold text-slate-800">Why might parents not recognize the benefits of developmental play?</span>
+                                </div>
+                                <i id="whyIcon-3" class="fa-solid fa-chevron-down text-slate-400 text-xs transition-transform duration-200"></i>
+                            </button>
+                            <div id="whyContent-3" class="p-4 text-xs sm:text-sm text-slate-600 bg-white border-t-2 border-slate-100 leading-relaxed">
+                                Activities, such as drawing, storytelling, <strong>puzzles</strong>, and pretend play, may often be viewed mainly as a form of entertainment.
+                            </div>
+                        </div>
+
+
+                        <!-- Why 4 -->
+                        <div class="border-2 border-slate-200 rounded-2xl overflow-hidden transition-all duration-200">
+                            <button onclick="toggleWhy(4)" class="w-full p-4 bg-slate-50 hover:bg-teal-50/50 flex items-center justify-between text-left transition-colors">
+                                <div class="flex items-center space-x-3">
+                                    <span class="w-8 h-8 rounded-xl bg-popMint text-white font-fun font-bold text-sm flex items-center justify-center shrink-0">4</span>
+                                    <span class="text-xs sm:text-sm font-bold text-slate-800">Why are these activities sometimes viewed mainly as entertainment?</span>
+                                </div>
+                                <i id="whyIcon-4" class="fa-solid fa-chevron-down text-slate-400 text-xs transition-transform duration-200"></i>
+                            </button>
+                            <div id="whyContent-4" class="p-4 text-xs sm:text-sm text-slate-600 bg-white border-t-2 border-slate-100 leading-relaxed">
+                                Parents may not know which specific skills these activities can help develop.
+                            </div>
+                        </div>
+
+
+                        <!-- Why 5 -->
+                        <div class="border-2 border-slate-200 rounded-2xl overflow-hidden transition-all duration-200">
+                            <button onclick="toggleWhy(5)" class="w-full p-4 bg-slate-50 hover:bg-teal-50/50 flex items-center justify-between text-left transition-colors">
+                                <div class="flex items-center space-x-3">
+                                    <span class="w-8 h-8 rounded-xl bg-popMint text-white font-fun font-bold text-sm flex items-center justify-center shrink-0">5</span>
+                                    <span class="text-xs sm:text-sm font-bold text-slate-800">Why is this lack of knowledge a concern?</span>
+                                </div>
+                                <i id="whyIcon-5" class="fa-solid fa-chevron-down text-slate-400 text-xs transition-transform duration-200"></i>
+                            </button>
+                            <div id="whyContent-5" class="p-4 text-xs sm:text-sm text-slate-600 bg-white border-t-2 border-slate-100 leading-relaxed">
+                                Parents may have difficulty choosing play activities that match their children’s developmental needs.
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Final Root Cause Box -->
+                    <div class="lg:col-span-5 bg-gradient-to-br from-amber-100 via-amber-50 to-orange-100 p-6 sm:p-8 rounded-3xl border-4 border-popYellow space-y-4 shadow-sm">
+                        <div class="flex items-center space-x-2 text-amber-900 font-fun font-bold text-sm uppercase tracking-wider">
+                            <i class="fa-solid fa-bullseye text-popCoral text-2xl"></i>
+                            <span>Final Root Cause</span>
+                        </div>
+                        <p class="text-slate-900 font-bold text-base sm:text-xl leading-snug">
+                            "Limited access to clear and understandable information about age-appropriate play and its developmental benefits."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="audience" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-24">
+            <div class="bg-white rounded-3xl p-6 sm:p-10 border-4 border-popPurple shadow-sm space-y-8">
+                <div class="border-b-2 border-slate-100 pb-4">
+                    <span class="text-xs font-extrabold text-popPurple uppercase tracking-wider block mb-1">Target Audience</span>
+                    <h2 class="text-3xl font-fun font-bold text-slate-900">3. Target Audience & Caregiver Needs</h2>
+                </div>
+
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <!-- Left Column -->
+                    <div class="space-y-6">
+                        <div class="p-6 bg-purple-50/60 rounded-3xl border-2 border-purple-200 space-y-3">
+                            <div class="flex items-center space-x-2 text-popPurple font-fun font-bold text-lg">
+                                <i class="fa-solid fa-people-roof text-xl"></i>
+                                <h3>Who is the Audience?</h3>
+                            </div>
+                            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                                The caregiving system surrounding young children: parents, legal guardians, extended family members, babysitters, and daycare attendants who facilitate play but lack formal early milestone training.
+                            </p>
+                        </div>
+
+
+                        <div class="p-6 bg-purple-50/60 rounded-3xl border-2 border-purple-200 space-y-3">
+                            <div class="flex items-center space-x-2 text-popPurple font-fun font-bold text-lg">
+                                <i class="fa-solid fa-chart-user text-xl"></i>
+                                <h3>Demographics</h3>
+                            </div>
+                            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                                Parents and caregivers with children aged 3 to 6 years old, particularly those seeking guidance on age-appropriate play to avoid unrealistic developmental expectations.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <!-- Right Column -->
+                    <div class="space-y-6">
+                        <div class="p-6 bg-teal-50/60 rounded-3xl border-2 border-popMint space-y-3">
+                            <div class="flex items-center space-x-2 text-teal-800 font-fun font-bold text-lg">
+                                <i class="fa-solid fa-heart-circle-check text-xl text-popMint"></i>
+                                <h3>Caregiver Needs</h3>
+                            </div>
+                            <p class="text-slate-700 text-xs sm:text-sm leading-relaxed">
+                                Knowing suitable activities helps support learning, physical development, and social skills while letting children explore preferred interests without being forced.
+                            </p>
+                        </div>
+
+
+                        <div class="p-6 bg-rose-50/60 rounded-3xl border-2 border-rose-200 space-y-3">
+                            <div class="flex items-center space-x-2 text-rose-800 font-fun font-bold text-lg">
+                                <i class="fa-solid fa-shield-heart text-xl text-popCoral"></i>
+                                <h3>Concerns to Avoid</h3>
+                            </div>
+                            <div class="grid grid-cols-2 gap-2 text-xs font-bold text-slate-700 pt-1">
+                                <div class="p-3 rounded-2xl bg-white border border-rose-200"><i class="fa-solid fa-triangle-exclamation text-popCoral mr-1"></i> Safety Risks</div>
+                                <div class="p-3 rounded-2xl bg-white border border-rose-200"><i class="fa-solid fa-clock text-amber-500 mr-1"></i> Delayed Growth</div>
+                                <div class="p-3 rounded-2xl bg-white border border-rose-200"><i class="fa-solid fa-face-frown text-slate-400 mr-1"></i> Lack of Interest</div>
+                                <div class="p-3 rounded-2xl bg-white border border-rose-200"><i class="fa-solid fa-weight-scale text-purple-500 mr-1"></i> Too Much Pressure</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="solution-video" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-24">
+            <div class="bg-white rounded-3xl p-6 sm:p-10 border-4 border-popCoral shadow-sm space-y-8">
+                <div class="border-b-2 border-slate-100 pb-4">
+                    <span class="text-xs font-extrabold text-popCoral uppercase tracking-wider block mb-1">Proposed Solution</span>
+                    <h2 class="text-3xl font-fun font-bold text-slate-900">4. YouTube Educational Video & Activity Guide</h2>
+                </div>
+
+
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                    <!-- Embedded Video Card -->
+                    <div class="lg:col-span-7 bg-slate-900 rounded-3xl p-5 text-white space-y-4 shadow-md border-4 border-slate-800">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs font-bold text-popYellow uppercase tracking-wider font-fun">
+                                <i class="fa-brands fa-youtube text-red-500 mr-1.5 text-lg"></i> Educational Demonstration
+                            </span>
+                            <span class="px-3 py-1 rounded-full bg-red-600 text-white text-[10px] font-black uppercase tracking-wider">
+                                Solution Video
+                            </span>
+                        </div>
+
+
+                        <!-- Embedded iFrame Player -->
+                        <div class="relative w-full aspect-video rounded-2xl overflow-hidden bg-slate-950 border border-slate-800">
+                            <iframe
+                                class="absolute top-0 left-0 w-full h-full"
+                                src="https://www.youtube.com/embed/CxfSsBRI5DU"
+                                title="Learn through Play - Educational Video"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+
+
+                        <div class="flex items-center justify-between pt-1 text-xs">
+                            <span class="text-slate-300">Simple and fun activities for home play (Ages 3–6).</span>
+                            <a href="https://youtu.be/CxfSsBRI5DU?si=Qgp3Qq6Yl2pZJHcR" target="_blank" rel="noopener" class="px-3 py-1.5 rounded-xl bg-red-600 hover:bg-red-700 text-white font-bold transition-colors inline-flex items-center space-x-1">
+                                <span>Watch on YouTube</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <!-- Video Details -->
+                    <div class="lg:col-span-5 space-y-5">
+                        <div class="p-6 bg-amber-50 rounded-3xl border-2 border-popYellow space-y-3">
+                            <h3 class="font-fun text-xl font-bold text-slate-900">What Will the Video Contain?</h3>
+                            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                                A short explanation of age-appropriate play, followed by simple activities suitable for ages 3–6: <strong>drawing and coloring, storytelling, puzzles, and pretend play</strong>. It explains how these support language, creativity, problem-solving, coordination, and social skills.
+                            </p>
+                        </div>
+
+
+                        <div class="p-6 bg-teal-50 rounded-3xl border-2 border-popMint space-y-3">
+                            <h3 class="font-fun text-xl font-bold text-slate-900">How It Addresses the Problem</h3>
+                            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                                It provides parents and caregivers with clear, accessible, and reliable information through visual demonstration, showing exactly how everyday play routines foster early developmental milestones.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Interactive Activity Switcher with Puzzles -->
+                <div class="pt-6 space-y-4 border-t-2 border-slate-100">
+                    <h3 class="font-fun text-2xl font-bold text-slate-900">Explore Play Activities & Skill Benefits</h3>
+                    <p class="text-xs font-bold text-slate-500">Click an activity to see its primary developmental benefits:</p>
+
+
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3" id="activityButtons">
+                        <button onclick="selectActivity('drawing')" id="actBtn-drawing" class="p-3.5 rounded-2xl border-2 border-popCoral bg-rose-50 text-slate-900 font-fun font-bold text-sm text-left transition-all shadow-sm">
+                            <i class="fa-solid fa-palette text-popCoral mr-1.5"></i> Drawing & Coloring
+                        </button>
+                        <button onclick="selectActivity('storytelling')" id="actBtn-storytelling" class="p-3.5 rounded-2xl border-2 border-slate-200 bg-slate-50 text-slate-700 font-fun font-bold text-sm text-left transition-all">
+                            <i class="fa-solid fa-book-open text-amber-500 mr-1.5"></i> Storytelling
+                        </button>
+                        <button onclick="selectActivity('puzzles')" id="actBtn-puzzles" class="p-3.5 rounded-2xl border-2 border-slate-200 bg-slate-50 text-slate-700 font-fun font-bold text-sm text-left transition-all">
+                            <i class="fa-solid fa-puzzle-piece text-popPurple mr-1.5"></i> Puzzles
+                        </button>
+                        <button onclick="selectActivity('pretend')" id="actBtn-pretend" class="p-3.5 rounded-2xl border-2 border-slate-200 bg-slate-50 text-slate-700 font-fun font-bold text-sm text-left transition-all">
+                            <i class="fa-solid fa-masks-theater text-popSky mr-1.5"></i> Pretend Play
+                        </button>
+                    </div>
+
+
+                    <!-- Activity Details Display -->
+                    <div id="activityDetailsCard" class="p-6 rounded-3xl bg-slate-50 border-2 border-slate-200 text-xs sm:text-sm space-y-3">
+                        <div id="actTitle" class="font-fun text-2xl font-bold text-slate-900">Drawing & Coloring</div>
+                        <p id="actDesc" class="text-slate-600 leading-relaxed font-medium">
+                            Develops fine motor control, hand-eye coordination, pencil grip, color identification, and early creative self-expression.
+                        </p>
+                        <div class="pt-2 flex flex-wrap gap-2" id="actTags">
+                            <span class="px-3 py-1 rounded-xl bg-rose-100 text-rose-800 font-bold text-xs">Fine Motor Skills</span>
+                            <span class="px-3 py-1 rounded-xl bg-amber-100 text-amber-800 font-bold text-xs">Creativity</span>
+                            <span class="px-3 py-1 rounded-xl bg-teal-100 text-teal-800 font-bold text-xs">Physical Coordination</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="references" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-24">
+            <div class="bg-slate-900 rounded-3xl p-6 sm:p-10 text-white space-y-6 shadow-lg border-4 border-slate-800">
+                <div class="border-b border-slate-800 pb-4 flex items-center justify-between">
+                    <div>
+                        <span class="text-xs font-bold text-popYellow uppercase tracking-wider block mb-1">Research Base</span>
+                        <h2 class="text-3xl font-fun font-bold">5. Academic Sources & Citations</h2>
+                    </div>
+                    <i class="fa-solid fa-graduation-cap text-3xl text-slate-700"></i>
+                </div>
+
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+                    <!-- Reference 1 -->
+                    <div class="p-5 rounded-2xl bg-slate-800 border border-slate-700 space-y-3 flex flex-col justify-between">
+                        <div class="space-y-2">
+                            <span class="px-2.5 py-1 rounded-lg bg-teal-500/20 text-teal-300 font-bold text-[10px] uppercase">CDC Guidelines</span>
+                            <div class="font-bold text-white text-sm">Centers for Disease Control and Prevention</div>
+                            <p class="text-slate-400 leading-relaxed">
+                                Preschoolers (3-5 years old). U.S. Department of Health and Human Services.
+                            </p>
+                        </div>
+                        <a href="https://www.cdc.gov/child-development/positive-parenting-tips/preschooler-3-5-years.html" target="_blank" rel="noopener" class="inline-flex items-center space-x-1.5 text-popYellow font-bold hover:underline pt-2">
+                            <span>Open CDC Tips</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                        </a>
+                    </div>
+
+
+                    <!-- Reference 2 -->
+                    <div class="p-5 rounded-2xl bg-slate-800 border border-slate-700 space-y-3 flex flex-col justify-between">
+                        <div class="space-y-2">
+                            <span class="px-2.5 py-1 rounded-lg bg-amber-500/20 text-amber-300 font-bold text-[10px] uppercase">Pediatrics Research</span>
+                            <div class="font-bold text-white text-sm">American Academy of Pediatrics (AAP)</div>
+                            <p class="text-slate-400 leading-relaxed">
+                                Yogman, M., Garner, A., Hutchinson, J., Hirsh-Pasek, K., Golinkoff, R. M., et al. (2018). <em>The power of play: A pediatric role in enhancing development in young children.</em> Pediatrics, 142(3), e20182058.
+                            </p>
+                        </div>
+                        <a href="https://publications.aap.org/pediatrics/article/142/3/e20182058/38649/The-Power-of-Play-A-Pediatric-Role-in-Enhancing" target="_blank" rel="noopener" class="inline-flex items-center space-x-1.5 text-popYellow font-bold hover:underline pt-2">
+                            <span>Open AAP Study</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <footer class="bg-white border-t-4 border-popYellow py-8 text-center text-xs text-slate-600">
+        <div class="max-w-7xl mx-auto px-4 space-y-2">
+            <p class="font-fun text-base font-bold text-slate-900">Learn through Play — Project Portal</p>
+            <p class="font-bold text-popPurple">Altares • Salcedo V. • Bituin • Acapuyan • Ydia • Pestano</p>
+        </div>
+    </footer>
+
+
+    <script>
+        function toggleWhy(num) {
+            const content = document.getElementById(`whyContent-${num}`);
+            const icon = document.getElementById(`whyIcon-${num}`);
+           
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.classList.add('rotate-180');
+            } else {
+                content.classList.add('hidden');
+                icon.classList.remove('rotate-180');
+            }
+        }
+
+
+        const activityData = {
+            drawing: {
+                title: "Drawing & Coloring",
+                desc: "Develops fine motor control, hand-eye coordination, pencil grip, color identification, visual-spatial awareness, and creative self-expression.",
+                tags: ["Fine Motor Skills", "Creativity", "Physical Coordination"],
+                btnId: "actBtn-drawing"
+            },
+            storytelling: {
+                title: "Interactive Storytelling",
+                desc: "Expands vocabulary, listening comprehension, narrative recall, sequential thinking, and emotional empathy.",
+                tags: ["Language Skills", "Vocabulary", "Social Skills"],
+                btnId: "actBtn-storytelling"
+            },
+            puzzles: {
+                title: "Puzzles & Problem Solving",
+                desc: "Enhances spatial awareness, pattern recognition, critical problem-solving skills, hand-eye coordination, and persistence.",
+                tags: ["Problem Solving", "Spatial Skills", "Cognitive Growth"],
+                btnId: "actBtn-puzzles"
+            },
+            pretend: {
+                title: "Pretend & Role Play",
+                desc: "Encourages social negotiation, emotional regulation, empathy, imaginative scenarios, and peer communication.",
+                tags: ["Social Skills", "Emotional Regulation", "Creativity"],
+                btnId: "actBtn-pretend"
+            }
+        };
+
+
+        function selectActivity(key) {
+            const data = activityData[key];
+            if (!data) return;
+
+
+            document.getElementById('actTitle').innerText = data.title;
+            document.getElementById('actDesc').innerText = data.desc;
+
+
+            const tagsContainer = document.getElementById('actTags');
+            tagsContainer.innerHTML = data.tags.map(tag =>
+                `<span class="px-3 py-1 rounded-xl bg-purple-100 text-purple-900 font-bold text-xs">${tag}</span>`
+            ).join('');
+
+
+            Object.keys(activityData).forEach(actKey => {
+                const btn = document.getElementById(activityData[actKey].btnId);
+                if (actKey === key) {
+                    btn.className = "p-3.5 rounded-2xl border-2 border-popCoral bg-rose-50 text-slate-900 font-fun font-bold text-sm text-left transition-all shadow-sm";
+                } else {
+                    btn.className = "p-3.5 rounded-2xl border-2 border-slate-200 bg-slate-50 text-slate-700 font-fun font-bold text-sm text-left transition-all hover:bg-slate-100";
+                }
+            });
+        }
+    </script>
+</body>
+</html>
+
